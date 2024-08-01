@@ -298,16 +298,6 @@ div#sitesimportantes>p:hover{
     text-decoration: underline;
 }
 
-#internafooter{
-    margin: auto;
-    height: 200px;
-    font-weight: lighter;
-    color: white;
-    width: 1200px;
-    padding-top: 20px;
-    display: flex;
-}
-
 #lastmenu{
     margin: auto;
     font-weight: bold;
@@ -322,3 +312,14 @@ footer{
     background-color: #0E2333;
     height: 230px;
 }
+
+div#internafooter{
+    margin: auto;
+    height: 200px;
+    font-weight: lighter;
+    color: white;
+    width: 1200px;
+    padding-top: 20px;
+    display: flex;
+}
+

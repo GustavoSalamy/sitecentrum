@@ -322,3 +322,173 @@ div#internafooter{
     display: flex;
 }
 
+@media (max-width: 600px) {
+    #home>p {
+        width: 100%; /* Ajusta a largura para smartphones */
+        margin-left: 0;
+    }
+
+    #menu>p {
+        width: 120px; /* Ajusta o tamanho dos itens do menu */
+        margin-right: 20px;
+    }
+
+    section#back {
+        height: 400px; /* Ajusta a altura para uma tela menor */
+    }
+
+    main {
+        width: 100%; /* Ajusta a largura para smartphones */
+        margin: 0; /* Remove a margem automática */
+    }
+
+    #inicial {
+        height: 400px; /* Ajusta a altura para uma tela menor */
+        box-shadow: #72727271 0px 2px 6px 1px; /* Ajusta a sombra */
+    }
+
+    #inicial>p {
+        width: 200px; /* Ajusta o tamanho dos elementos internos */
+    }
+
+    #trocarcontabilidade, #abrirempresa {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    #textoinicial {
+        width: 100%; /* Ajusta a largura para smartphones */
+        font-size: 0.8em; /* Ajusta o tamanho da fonte */
+    }
+
+    #textoinicial>h2 {
+        font-size: 1.2em; /* Ajusta o tamanho do título */
+    }
+
+    div#pqcentrum {
+        padding: 20px; /* Ajusta o padding */
+    }
+
+    div#pqcentrum>.interna {
+        flex-direction: column; /* Alinha os itens na vertical */
+    }
+
+    .interna>nav {
+        width: 100%; /* Ajusta a largura para smartphones */
+        margin-right: 0;
+    }
+
+    div#servicos {
+        flex-direction: column; /* Alinha os itens na vertical */
+        margin-bottom: 50px;
+    }
+
+    div#servicos>nav {
+        width: 100%; /* Ajusta a largura dos serviços */
+        height: auto; /* Ajusta a altura automaticamente */
+        margin-left: 0;
+        margin-bottom: 20px; /* Adiciona margem inferior */
+    }
+
+    nav#eleveseuneg {
+        font-size: 1.2em; /* Ajusta o tamanho da fonte */
+    }
+
+    div#youtube {
+        margin-bottom: 30px;
+    }
+
+    #youtube>h1 {
+        width: 100%; /* Ajusta a largura do título */
+    }
+
+    div#sitesimportantes>p {
+        margin-right: 0; /* Remove a margem direita */
+        margin-bottom: 10px; /* Adiciona margem inferior */
+    }
+
+    #lastmenu {
+        flex-direction: column; /* Alinha os itens na vertical */
+        margin-right: 0;
+    }
+
+    #lastmenu>div {
+        margin-right: 0; /* Remove a margem direita */
+        margin-bottom: 20px; /* Adiciona margem inferior */
+    }
+
+    footer {
+        height: auto; /* Ajusta a altura do footer */
+    }
+
+    div#internafooter {
+        width: 100%; /* Ajusta a largura do footer */
+        height: auto; /* Ajusta a altura automaticamente */
+        flex-direction: column; /* Alinha os itens na vertical */
+    }
+}
+
+/* Regras para tablets e dispositivos com telas maiores */
+@media (min-width: 601px) and (max-width: 900px) {
+    #home>p {
+        width: 80%;
+    }
+
+    #menu>p {
+        width: 130px; /* Ajusta o tamanho dos itens do menu */
+    }
+
+    section#back {
+        height: 500px; /* Ajusta a altura para tablets */
+    }
+
+    main {
+        width: 90%; /* Ajusta a largura para tablets */
+    }
+
+    #inicial {
+        height: 500px; /* Ajusta a altura para tablets */
+    }
+
+    #textoinicial {
+        width: 90%; /* Ajusta a largura para tablets */
+        font-size: 0.9em; /* Ajusta o tamanho da fonte */
+    }
+
+    #textoinicial>h2 {
+        font-size: 1.2em; /* Ajusta o tamanho do título */
+    }
+
+    div#pqcentrum {
+        padding: 30px; /* Ajusta o padding */
+    }
+
+    div#pqcentrum>.interna {
+        flex-direction: row; /* Mantém a direção dos itens na horizontal */
+    }
+
+    .interna>nav {
+        width: 100%; /* Ajusta a largura dos navs */
+        margin-right: 20px; /* Ajusta a margem direita */
+    }
+
+    div#servicos {
+        flex-direction: row; /* Mantém a direção dos serviços na horizontal */
+    }
+
+    div#servicos>nav {
+        width: 45%; /* Ajusta a largura dos serviços */
+        height: 300px; /* Ajusta a altura dos serviços */
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    #lastmenu {
+        flex-direction: row; /* Mantém a direção dos itens na horizontal */
+    }
+
+    #lastmenu>div {
+        margin-right: 20px; /* Ajusta a margem direita */
+        margin-bottom: 0;
+    }
+}
